@@ -211,10 +211,9 @@ class HBNBCommand(cmd.Cmd):
         storage.save()
 
 
-<<<<<<< HEAD
+
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
-=======
+
        if __name__ == "__main__":
-    HBNBCommand().cmdloop(
->>>>>>> af698d7866b77525d2048a56f4dd89df2fdb3b2a
+            HBNBCommand().cmdloop()
