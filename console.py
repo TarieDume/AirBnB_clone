@@ -128,8 +128,14 @@ class HBNBCommand(cmd.Cmd):
             print("** no instance found **")
         else:
             del objdict["{}.{}".format(argl[0], argl[1])]
+<<<<<<< HEAD
+                storage.save()
+        
+    def do_all(self, arg):
+=======
             storage.save()
             def do_all(self, arg):
+>>>>>>> af698d7866b77525d2048a56f4dd89df2fdb3b2a
         """Usage: all or all <class> or <class>.all()
         Display string representations of all instances of a given class.
         If no class is specified, displays all instantiated objects."""
@@ -205,5 +211,10 @@ class HBNBCommand(cmd.Cmd):
         storage.save()
 
 
+<<<<<<< HEAD
+if __name__ == "__main__":
+    HBNBCommand().cmdloop()
+=======
        if __name__ == "__main__":
     HBNBCommand().cmdloop(
+>>>>>>> af698d7866b77525d2048a56f4dd89df2fdb3b2a
